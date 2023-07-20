@@ -1,0 +1,47 @@
+body{
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+ul.menu{
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 60px;
+    font-size: 15px;
+    border: 1px solid #fff; 
+    
+}
+
+.menu li{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    position: relative;
+    float: right;
+    
+}
+
+.menu a:hover{
+    color: #bf8d8d;
+    transition: 0.5s;
+
+}
+
+div.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }

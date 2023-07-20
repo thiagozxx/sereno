@@ -1,0 +1,42 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+font-family: arial, helvetica, sans-serif;/* FONTE DA LETRA */
+font-size: 12px; /* TAMANHO DA FONTE */
+background-color: rgb(33, 32, 31); /* PLANO DE FUNDO */
+box-sizing: border-box;
+}
+
+.menu{
+list-style:none; /* LISTA "NO CASO SEM LISTA" */
+border:1px solid #c0c0c0; /* BORDA DO MENU */
+float:left; /* LADO AONDE VAI SER MOSTRADO O MENU */
+}
+
+#menu ul{
+max-width: 80%;
+padding: 0;
+}
+
+#menu ul li{
+    display: inline;/* ALTERA A POSIÇAO REFERENTA AO PAI, NO CASO RELATIVO */
+    
+    border-right:1px solid #c0c0c0;
+}
+
+#menu ul li a{
+    color:rgb(200, 179, 179); 
+    text-decoration:none; 
+    padding: 5px 15px; 
+    display:inline-block;
+    transition: background .8s;
+}
+
+#menu li a:hover{
+background:#333;
+color:#fff;
+text-shadow:0px 0px 5px #fff;
+}
